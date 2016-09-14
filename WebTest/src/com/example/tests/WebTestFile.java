@@ -58,6 +58,7 @@ public class WebTestFile {
         assertEquals(driver.findElement(By.xpath("//tr[9]/td[4]")).getText(), "Web Development");
         assertEquals(driver.findElement(By.xpath("//tr[10]/td[4]")).getText(), "Web Development");
       }
+      @Test
       public void testAddAlgebra() throws Exception {
         driver.get(baseUrl);
         driver.findElement(By.name("title")).clear();
