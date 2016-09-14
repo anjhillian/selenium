@@ -57,7 +57,7 @@ public class WebTestFile {
         assertEquals(driver.findElement(By.xpath("//tr[8]/td[4]")).getText(), "Web Development");
         assertEquals(driver.findElement(By.xpath("//tr[9]/td[4]")).getText(), "Web Development");
         assertEquals(driver.findElement(By.xpath("//tr[10]/td[4]")).getText(), "Web Development");
-    }
+      }
 	  @AfterClass(alwaysRun = true)
 	  public void tearDown() throws Exception {
 	    driver.quit();
