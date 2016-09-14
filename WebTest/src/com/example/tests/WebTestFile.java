@@ -58,6 +58,21 @@ public class WebTestFile {
         assertEquals(driver.findElement(By.xpath("//tr[9]/td[4]")).getText(), "Web Development");
         assertEquals(driver.findElement(By.xpath("//tr[10]/td[4]")).getText(), "Web Development");
       }
+      public void testAddAlgebra() throws Exception {
+        driver.get(baseUrl);
+        driver.findElement(By.name("title")).clear();
+        driver.findElement(By.name("title")).sendKeys("College Algebra");
+        driver.findElement(By.xpath("(//input[@name='day'])[2]")).click();
+        new Select(driver.findElement(By.name("starttime"))).selectByVisibleText("9:00am");
+        new Select(driver.findElement(By.name("endtime"))).selectByVisibleText("11:00am");
+        driver.findElement(By.name("Submit")).click();
+        assertEquals(driver.findElement(By.xpath("//tr[3]/td[3]")).getText(), "College Algebra");
+        assertEquals(driver.findElement(By.xpath("//tr[4]/td[3]")).getText(), "College Algebra");
+      }
+      
+      
+      
+      
 	  @AfterClass(alwaysRun = true)
 	  public void tearDown() throws Exception {
 	    driver.quit();
