@@ -27,7 +27,7 @@ public class TestAddWebDev {
 	    nodeURL = "http://selenium-hub:4444/wd/hub";
 	    DesiredCapabilities capability = DesiredCapabilities.firefox();
 	    capability.setBrowserName("firefox");
-	    capability.setPlatform(Platform.XP);
+	    //capability.setPlatform(Platform.XP);
 	    driver = new RemoteWebDriver(new URL(nodeURL), capability);
 	    
 	    //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
