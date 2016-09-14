@@ -45,7 +45,19 @@ public class WebTestFile {
 	    // ERROR: Caught exception [ERROR: Unsupported command [selectWindow | null | ]]
 	    assertEquals(driver.findElement(By.linkText("TeamTAE")).getText(), "TeamTAE");
 	  }
-	  
+	  @Test
+      public void testAddWebDev() throws Exception {
+        driver.get(baseUrl);
+        driver.findElement(By.name("title")).clear();
+        driver.findElement(By.name("title")).sendKeys("Web Development");
+        driver.findElement(By.xpath("(//input[@name='day'])[3]")).click();
+        new Select(driver.findElement(By.name("starttime"))).selectByVisibleText("2:00pm");
+        new Select(driver.findElement(By.name("endtime"))).selectByVisibleText("5:00pm");
+        driver.findElement(By.name("Submit")).click();
+        assertEquals(driver.findElement(By.xpath("//tr[8]/td[4]")).getText(), "Web Development");
+        assertEquals(driver.findElement(By.xpath("//tr[9]/td[4]")).getText(), "Web Development");
+        assertEquals(driver.findElement(By.xpath("//tr[10]/td[4]")).getText(), "Web Development");
+    }
 	  @AfterClass(alwaysRun = true)
 	  public void tearDown() throws Exception {
 	    driver.quit();
