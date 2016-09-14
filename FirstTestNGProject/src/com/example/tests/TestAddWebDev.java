@@ -2,25 +2,35 @@ package com.example.tests;
 
 import org.testng.annotations.Test;
 
-import java.util.regex.Pattern;
-import java.util.concurrent.TimeUnit;
+//import java.util.regex.Pattern;
+//import java.util.concurrent.TimeUnit;
 import org.testng.annotations.*;
 import static org.testng.Assert.*;
 import org.openqa.selenium.*;
-import org.openqa.selenium.firefox.FirefoxDriver;
+//import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import java.net.MalformedURLException;
+import java.net.URL;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class TestAddWebDev {
-	private WebDriver driver;
-	  private String baseUrl;
+	 WebDriver driver;
+	   String baseUrl, nodeURL;
 	  private boolean acceptNextAlert = true;
 	  private StringBuffer verificationErrors = new StringBuffer();
 
 	  @BeforeClass(alwaysRun = true)
-	  public void setUp() throws Exception {
-	    driver = new FirefoxDriver();
+	  public void setUp() throws MalformedURLException {
+	   
 	    baseUrl = "http://52.42.226.149/SchoolSchedule/";
-	    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	    nodeURL = "http://selenium-hub:4444/wd/hub";
+	    DesiredCapabilities capability = DesiredCapabilities.firefox();
+	    capability.setBrowserName("firefox");
+	    capability.setPlatform(Platform.XP);
+	    driver = new RemoteWebDriver(new URL(nodeURL), capability);
+	    
+	    //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	  }
 
 	  @Test
