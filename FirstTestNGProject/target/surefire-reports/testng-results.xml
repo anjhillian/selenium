@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="83877" started-at="2016-09-14T03:50:19Z" finished-at="2016-09-14T03:51:43Z">
+  <suite name="Suite" duration-ms="64893" started-at="2016-09-14T04:18:23Z" finished-at="2016-09-14T04:19:28Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="83877" started-at="2016-09-14T03:50:19Z" finished-at="2016-09-14T03:51:43Z">
+    <test name="Test" duration-ms="64893" started-at="2016-09-14T04:18:23Z" finished-at="2016-09-14T04:19:28Z">
       <class name="com.example.tests.TestAddWebDev">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.example.tests.TestAddWebDev@73f792cf]" name="setUp" is-config="true" duration-ms="55463" started-at="2016-09-14T11:50:19Z" finished-at="2016-09-14T11:51:15Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.example.tests.TestAddWebDev@73f792cf]" name="setUp" is-config="true" duration-ms="24787" started-at="2016-09-14T12:18:23Z" finished-at="2016-09-14T12:18:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testAddWebDev()[pri:0, instance:com.example.tests.TestAddWebDev@73f792cf]" name="testAddWebDev" duration-ms="26820" started-at="2016-09-14T11:51:15Z" finished-at="2016-09-14T11:51:42Z">
+        <test-method status="PASS" signature="testAddWebDev()[pri:0, instance:com.example.tests.TestAddWebDev@73f792cf]" name="testAddWebDev" duration-ms="37386" started-at="2016-09-14T12:18:47Z" finished-at="2016-09-14T12:19:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddWebDev -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example.tests.TestAddWebDev@73f792cf]" name="tearDown" is-config="true" duration-ms="1566" started-at="2016-09-14T11:51:42Z" finished-at="2016-09-14T11:51:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example.tests.TestAddWebDev@73f792cf]" name="tearDown" is-config="true" duration-ms="2690" started-at="2016-09-14T12:19:25Z" finished-at="2016-09-14T12:19:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
