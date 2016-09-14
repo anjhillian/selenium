@@ -39,7 +39,7 @@ public class WebTestFile {
 	
 	  @Test
 	  public void testLink() throws Exception {
-	    driver.get(baseUrl + "/SchoolSchedule/");
+	    driver.get(baseUrl);
 	    driver.findElement(By.name("title")).clear();
 	    driver.findElement(By.name("title")).sendKeys("Web Development");
 	    // ERROR: Caught exception [ERROR: Unsupported command [selectWindow | null | ]]
