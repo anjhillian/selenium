@@ -43,7 +43,7 @@ public class TestAddWebDev {
 		    new Select(driver.findElement(By.name("endtime"))).selectByVisibleText("1:00pm");
 		    driver.findElement(By.name("Submit")).click();
 		    try {
-		      assertEquals(driver.findElement(By.linkText("TeamTAE")).getText(), "TeamTAE");
+		      assertEquals(driver.findElement(By.linkText("TeamTAE")).getText(), "TeamTEA");
 		    } catch (Error e) {
 		      verificationErrors.append(e.toString());
 		    }

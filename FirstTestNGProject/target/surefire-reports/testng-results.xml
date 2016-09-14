@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="12818" started-at="2016-09-14T06:48:48Z" finished-at="2016-09-14T06:49:01Z">
+  <suite name="Suite" duration-ms="4209" started-at="2016-09-14T07:15:06Z" finished-at="2016-09-14T07:15:10Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="12818" started-at="2016-09-14T06:48:48Z" finished-at="2016-09-14T06:49:01Z">
+    <test name="Test" duration-ms="4209" started-at="2016-09-14T07:15:06Z" finished-at="2016-09-14T07:15:10Z">
       <class name="com.example.tests.TestAddWebDev">
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.example.tests.TestAddWebDev@38082d64]" name="setUp" is-config="true" duration-ms="0" started-at="2016-09-14T14:48:48Z" finished-at="2016-09-14T14:48:48Z">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.example.tests.TestAddWebDev@42d3bd8b]" name="setUp" is-config="true" duration-ms="0" started-at="2016-09-14T15:15:06Z" finished-at="2016-09-14T15:15:06Z">
           <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
@@ -81,11 +81,11 @@ Caused by: java.net.UnknownHostException: selenium-hub
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="testAddWebDev()[pri:0, instance:com.example.tests.TestAddWebDev@38082d64]" name="testAddWebDev" duration-ms="1" started-at="2016-09-14T14:49:01Z" finished-at="2016-09-14T14:49:01Z">
+        <test-method status="SKIP" signature="testAddWebDev()[pri:0, instance:com.example.tests.TestAddWebDev@42d3bd8b]" name="testAddWebDev" duration-ms="1" started-at="2016-09-14T15:15:10Z" finished-at="2016-09-14T15:15:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddWebDev -->
-        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.example.tests.TestAddWebDev@38082d64]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-09-14T14:49:01Z" finished-at="2016-09-14T14:49:01Z">
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.example.tests.TestAddWebDev@42d3bd8b]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-09-14T15:15:10Z" finished-at="2016-09-14T15:15:10Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
