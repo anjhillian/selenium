@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="132247" started-at="2016-09-14T01:30:34Z" finished-at="2016-09-14T01:32:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="132247" started-at="2016-09-14T01:30:34Z" finished-at="2016-09-14T01:32:47Z">
+      <class name="com.example.tests.TestAddWebDev">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.example.tests.TestAddWebDev@7e0b0338]" name="setUp" is-config="true" duration-ms="73844" started-at="2016-09-14T09:30:34Z" finished-at="2016-09-14T09:31:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddWebDev()[pri:0, instance:com.example.tests.TestAddWebDev@7e0b0338]" name="testAddWebDev" duration-ms="53771" started-at="2016-09-14T09:31:48Z" finished-at="2016-09-14T09:32:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddWebDev -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example.tests.TestAddWebDev@7e0b0338]" name="tearDown" is-config="true" duration-ms="4538" started-at="2016-09-14T09:32:42Z" finished-at="2016-09-14T09:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.tests.TestAddWebDev -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
