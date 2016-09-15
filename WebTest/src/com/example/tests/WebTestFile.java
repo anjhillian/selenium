@@ -54,7 +54,7 @@ public class WebTestFile {
         new Select(driver.findElement(By.name("starttime"))).selectByVisibleText("2:00pm");
         new Select(driver.findElement(By.name("endtime"))).selectByVisibleText("5:00pm");
         driver.findElement(By.name("Submit")).click();
-        assertEquals(driver.findElement(By.xpath("//tr[8]/td[4]")).getText(), "Web Development");
+        assertEquals(driver.findElement(By.xpath("//tr[8]/td[4]")).getText(), "Webbbbb Development");
         assertEquals(driver.findElement(By.xpath("//tr[9]/td[4]")).getText(), "Web Development");
         assertEquals(driver.findElement(By.xpath("//tr[10]/td[4]")).getText(), "Web Development");
       }
