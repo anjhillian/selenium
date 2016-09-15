@@ -3,10 +3,10 @@
   <groupId>WebTest</groupId>
   <artifactId>WebTest</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>war</packaging>
+  
   <properties>
   <suiteXmlFile>testng.xml</suiteXmlFile>
-   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   
   <dependencies>			
